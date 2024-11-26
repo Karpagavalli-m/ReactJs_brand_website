@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col, Container, Form, Row } from 'react-bootstrap'
+import { Container, Form } from 'react-bootstrap'
 
 const Content = () => {
   return (

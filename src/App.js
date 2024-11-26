@@ -1,5 +1,4 @@
 
-import Carosel from "./Carosel";
 import Content from "./Content";
 import NavBar from "./NavBar";
 import VertialScroll from "./VertialScroll";

@@ -1,22 +1,16 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { FaBell, FaRegUserCircle, FaSearch, FaShoppingCart, FaUser } from "react-icons/fa";
+import { FaBell, FaRegUserCircle, FaUser } from "react-icons/fa";
 import { BsCart3, BsCashCoin, BsFillCartPlusFill, BsFillGrid3X3GapFill, BsGridFill, BsShop, BsSuitcaseLgFill } from "react-icons/bs";
-import { TbLanguageHiragana, TbUserCircle } from 'react-icons/tb';
+import { TbLanguageHiragana } from 'react-icons/tb';
 import { BiSolidCoupon, BiSolidOffer } from 'react-icons/bi';
 import { FaRectangleList } from 'react-icons/fa6';
 import { MdFavorite } from 'react-icons/md';
 import Image from 'react-bootstrap/Image';
-import flip from './images/Flipkart_logo.png'
-import { Col, Dropdown, Figure, Form, Row } from 'react-bootstrap';
-import { FcShop } from 'react-icons/fc';
-import { GiShop } from 'react-icons/gi';
-import { IoMdMore } from 'react-icons/io';
+import { Dropdown, Form } from 'react-bootstrap';
 import { CgMoreVertical } from 'react-icons/cg';
-import DropdownToggle from 'react-bootstrap/DropdownToggle'
 
 
 function NavBar() {
@@ -37,7 +31,7 @@ function NavBar() {
                   <span className='ms-3'>Welcome!</span>
                 
 
-                  <img id="brand_logo" src={require('./images/Flipkart_logo2.png')} width={25}  />
+                  <img id="brand_logo" src={require('./images/Flipkart_logo2.png')} width={25}  alt="Brand Logo"/>
                   
                 </Offcanvas.Title>
                 

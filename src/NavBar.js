@@ -17,7 +17,7 @@ function NavBar() {
     const expand=false;
   return (
     <Navbar expand={expand} > 
-      <Container className='justify-items-xs-between fs-6 bg-white'>
+      <Container className='justify-items-xs-evenly fs-6 bg-white'>
       <Navbar.Toggle className='d-md-none' inline/>
             <Navbar.Offcanvas className='d-md-none'
               id={`offcanvasNavbar-expand-${expand}`}

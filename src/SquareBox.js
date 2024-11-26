@@ -20,7 +20,7 @@ const SquareBox = () => {
 
     const sponserImages=['./images/sponser2.jpeg','./images/sponser1.jpeg','./images/sponser3.jpeg','./images/sponser4.jpeg']
   return (
-    <Container fluid='lg' className='d-flex mt-3'>
+    <Container fluid className='d-flex mt-3'>
         <Row xs={1} lg={1} 
         className=' g-1 d-flex justify-content-evenly' >
         <Col className='border rounded p-3' lg={3}> 

@@ -1,27 +1,12 @@
 import React from 'react'
-import { Card,  Carousel, Col, Container, Figure, Row, Stack } from 'react-bootstrap'
-import { IoIosArrowDroprightCircle } from 'react-icons/io'
+import {  Col, Container, Row} from 'react-bootstrap'
 import VerticalScrollItems from './VerticalScrollItems'
 import Carosel from './Carosel'
 import RecentCard from './RecentCard'
 import ItemsHeader from './ItemsHeader'
 
 const SquareBox = () => {
-    const dress=[{image:"./images/dress1.jpeg"},
-        {image:'./images/dress2.jpeg'},
-        {image:'./images/dress3.jpeg'},
-        {image:'./images/dress4.jpeg'}
-    ]
-    const decor=[{image:"./images/decor1.jpeg"},
-        {image:"./images/decor2.jpeg"},
-        {image:"./images/decor3.jpeg"},
-        {image:"./images/decor4.jpeg"}
-    ]
-    const gadget=[{image:"./images/gadget1.jpeg"},
-        {image:"./images/gadget2.jpeg"},
-        {image:"./images/gadget3.jpeg"},
-        {image:"./images/gadget4.jpeg"}
-    ]
+   
     const recent=[{image:"./images/recent1.jpeg",title:'Tops'},
         {image:"./images/recent2.jpeg",title:'Bags'},
         {image:"./images/recent3.jpeg",title:'Toys'},

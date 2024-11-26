@@ -5,7 +5,7 @@ const VerticalScrollItems = ({array}) => {
   return (
     <Stack direction='horizontal' className='d-lg-none m-3'>
       {array.map((item, idx) => (
-        <Col key={idx} className='g-2 me-3' xs={5} sm={4}>
+        <Col key={idx} className='g-2 me-3' xs={3} sm={3}>
           <Card className='align-items-center' >
           <Card.Img variant="top" src={require(`${item.image}`)}
           id="card-image" />
